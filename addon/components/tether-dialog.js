@@ -16,11 +16,11 @@ export default ModalDialog.extend({
 
   targetAttachment: 'middle center',
   attachment: 'middle center',
-  targetModifier: 'visible',
   hasOverlay: true,
 
   tetherClassPrefix: 'ember-tether',
   // offset - passed in
+  // targetModifier - passed in
   // targetOffset - passed in
 
   makeOverlayClickableOnIOS: Ember.on('didInsertElement', function() {
